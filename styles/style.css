@@ -134,4 +134,8 @@ body {
         background-color: var(--Yellow);
         color: var(--Black);
     }
+
+    #footer {
+        position: initial;
+    }
 }
