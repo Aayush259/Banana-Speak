@@ -90,6 +90,13 @@ body {
     color: var(--White);
 }
 
+#translate-btn:focus {
+    outline: 0;
+    transform: scale(1.05);
+    background-color: var(--Blue);
+    color: var(--White);
+}
+
 #footer {
     margin-bottom: 1rem;
     font-size: 1.4rem;
@@ -118,5 +125,13 @@ body {
     #footer p {
         letter-spacing: 0;
         text-align: justify;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+
+    #translate-btn:hover {
+        background-color: var(--Yellow);
+        color: var(--Black);
     }
 }
